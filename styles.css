@@ -27,7 +27,7 @@ body {
     background-color: var(--card-bg);
     margin: 100px auto auto;
     border-radius: 10px;
-    vertical-align: middle;
+
     justify-content: center;
     align-items: center;
     /*margin: auto;*/
@@ -36,13 +36,14 @@ body {
 }
 
 .nft {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     height: 260px;
     width: 250px;
-    margin-top: 20px;
-    margin-left: 25px;
+    /*margin-top: 20px;*/
+    /*margin-left: 25px;*/
     border-radius: 5px;
+    margin:auto;
 }
 
 .nft-name {
@@ -108,3 +109,47 @@ body {
 /*.name-info{*/
 
 /*}*/
+
+
+
+.container {
+    height: 260px;
+    width: 250px;
+    display: inline-block;
+    justify-content: center;
+    position: relative ;
+    /*align-items: center;*/
+    /*max-width: 400px;*/
+}
+
+.overlay {
+    position: absolute;
+
+    /*bottom: 0;*/
+
+    /*right: 0;*/
+    height: 260px;
+    width: 250px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: var(--cyan);
+}
+
+.container:hover .overlay {
+    opacity: 0.5;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: var(--cyan);
+}
