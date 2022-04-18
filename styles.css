@@ -1,0 +1,110 @@
+html {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+.background {
+    background-color: var(--main-bg);
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    /*vertical-align: middle;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.card-component {
+    /*display: inline-block;*/
+    height: 452px;
+    width: 302px;
+    background-color: var(--card-bg);
+    margin: 100px auto auto;
+    border-radius: 10px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    /*margin: auto;*/
+    /*margin-top: 130px;*/
+    /*margin-left: 572px;*/
+}
+
+.nft {
+    position: relative;
+    display: flex;
+    height: 260px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.nft-name {
+    color: hsl(0, 0%, 100%);
+    margin-left: 25px;
+    margin-top: 1px;
+}
+
+.info {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.price-time-left {
+    display: flex;
+    flex-direction: row;
+    color: hsl(178, 100%, 50%);
+    margin-left: 25px;
+    font-size: 15px;
+
+}
+
+/*.time-left {*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    font-size: 15px;*/
+/*    margin-left: 200px;*/
+
+/*}*/
+
+/*.container:hover .overlay {*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.image-container {*/
+/*    margin-top: 2px;*/
+/*}*/
+
+/*.image-container .after {*/
+/*    position: absolute;*/
+/*    !*margin-top: 1000px;*!*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 260px;*/
+/*    height: 250px;*/
+/*    display: none;*/
+/*    color: var(--cyan);*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.image-container:hover .after {*/
+/*    display: flex;*/
+/*    margin-left: 25px;*/
+/*    background: var(--cyan);*/
+/*    opacity: 0.5;*/
+/*    height: 260px;*/
+/*    width: 250px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.name-info{*/
+
+/*}*/
